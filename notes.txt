@@ -1,0 +1,5 @@
+Ideas for the Project:
+    GeoGuessr guide site.
+    Clickable map using <map> and <area>.
+    Must use <option> tag.
+    

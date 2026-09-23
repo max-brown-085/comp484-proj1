@@ -1,6 +1,6 @@
 # Project 1: Personal Website (HTML & CSS)
 
-**Due Date:** TBD (Please check the official due date on Canvas)
+**Due Date: Tuesday September 29th**
 
 ## 🎯 Purpose
 
