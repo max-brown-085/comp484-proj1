@@ -23,3 +23,4 @@ function scaleMap() {
 //Event listeners for image loading and resizing
 image.addEventListener("load", scaleMap)
 window.addEventListener("resize", scaleMap)
+scaleMap()
