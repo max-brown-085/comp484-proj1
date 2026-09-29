@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>GeoGuessr Guide</title>
+        <link rel="stylesheet" href="css/styles.css"/>
+    </head>
+    <body>
+        <header role="banner">
+            <h1>GeoGuessr Guide</h1>
+        </header>
+        
+        <main role="main">
+            <nav role="navigation">
+            <ul>
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="plates.html" title="License Plates">License Plates</a></li>
+                <li><a href="drivingSide.html" title="Driving Side">Driving Side</a></li>
+                <li><a href="domains.html" title="Website Domains">Website Domains</a></li>
+            </ul>
+            </nav>
+            <h2>License Plates</h2>
+            <p>License plates are a way that you can identify what country you are in. License plates can have different colors depending on the country. While most license plates in street view are blurred out, you can still make out enough details to eliminate certain possibilities.</p>
+            <h3>Size</h3>
+            <p>The first thing you want to notice about a license plate is its size. The main thing that the size of the license plate will tell is whether you are in Europe or not. European license plates are longer and narrower than other license plates.</p>
+            <p>Here is an example of a European license plate compared to a non-European license plate:</p>
+            <!--Option was the last element I chose. Option needs to be used in some sort of selection element. This creates a dropdown menu and option elements are the items in the dropdown list.-->
+            <!--The last attribute I picked was selected. This is used for the option element to indicate which option is selected by default.-->
+            <label for="blurSelect">Choose if License Plate is Blurred:</label><br>
+            <select id="blurSelect">
+                <option value="non-blurred" selected>Non-blurred License Plate</option>
+                <option value="blurred">Blurred License Plate</option>
+            </select><br><br>
+            <img class="blurImage" src="images/EuropeanLicensePlate.jpg" alt="European License Plate"/>
+            <img class="blurImage" src="images/NonEuropeanLicensePlate.jpg" alt="Non-European License Plate"/>
+            <p>Here, you can see even when blurred, the different sizes and colors of the plates.</p>
+            <h3>License Plate Colors</h3>
+            <p>After you've confirmed you are in Europe, there are some countries you will be able to identify based on the colors. All European license plates have the blue stripe on the left side but only Italy has a second blue stripe on the right side. Portugal also has the right stripe but its color is yellow. If the main color of the license plate is yellow instead of white, you are either in the Netherlands, Luxembourg, or sometimes the UK. Another country you can see a yellow license plate that is not in Europe is Colombia. So if you see a lot of Spanish and yellow license plates, you are likely in Colombia.</p>
+            <h3>Important Note</h3>
+            <p>While license plates can be very useful for identifying the country you are in, you should always take into account that cars can be driven around so the license plate might not always correspond to the country the car is in. It is best to take look at multiple cars just in case you got unlucky and looked at a car from another country.</p>
+        </main>
+        <footer>
+            
+        </footer>
+        <!--JavaScript file needed for blurring the license plate images -->
+        <script src="BlurImage.js"></script>
+    </body>
+</html>

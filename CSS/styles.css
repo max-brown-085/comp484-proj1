@@ -27,9 +27,12 @@ main {
     
 }
 .map{
-    width: 90%;
+    width: 100%;
     display: block;
     margin: 0 auto;
+}
+.blurred {
+    filter: blur(25px);/*I think this blur is more than the GeoGuessr blur*/
 }
 footer{
     font-size: 0.8em;
